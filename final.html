@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>FACE RECOGNITION!</title>
+    <link rel="shortcut icon" href="LOGO.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Montserrat:wght@200&family=Nunito:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Macondo&family=Montserrat:wght@200&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="final-style.css">
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    
+    <section class="plate">
+
+        <p class="title effect">Webcam View-</p>
+        <div id="camera" class="effect"></div>
+        <br><br>
+        <div id="result" class="effect"></div>
+        <br><br>
+<br>
+<br>
+<br>
+<br><br>
+<br><br><br>
+
+       <button class="button effect" onclick="take_snapshot();">CAPTURE IMAGE</button>
+       <span>
+         <button class="button2 effect">CHECK IMAGE</button>
+        </span>
+
+        <p class="subtitle effect">Person: <span id="result_object_name"></span></p>
+        <br>
+        <p class="subtitle2 effect">Accuracy: <span id="result_object_accuracy"></span></p>
+        </section>
+        </section>
+
+</body>
